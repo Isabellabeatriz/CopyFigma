@@ -1,4 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary-color: #043873;
+    --secondary-color: #4f9cf9;
+    --blue-secundary: #a7cefc;
+    --detail-color: #FFE492;
+    --neutral-color: #FFFFFF;
+    --dark-color: #212529;
+}
+
 *{
     margin: 0;
-    padding: 0;
+    font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    padding-right: 150px;
+}
+
+.nav-bar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: var(--primary-color);
+    color: var(--neutral-color);
+    padding: 10px 150px;
+}
+
+.icon{
+    height: 25px;
+    margin-left: 2px;
+    vertical-align: middle;
+    color: var(--neutral-color);
+}
+
+.bg-blue{
+    background-color: var(--primary-color);
+    color: var(--neutral-color);
+    padding-left: 150px;
+}
+
+.bg-blue h1{
+    padding-top: 100px;
+}
+
+header{
+    background-image: url(/images/Element.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.tela_azul{
+    height: 400px;
+    width: 500px;
+}
+
+.blue-button{
+    background-color: var(--secondary-color);
+    color: var(--neutral-color);
+    border: none;
+    border-radius: 2px;
+    padding: 7px;
+    align-items: center;
+}
+
+.left-content{
+    background-image: url(/images/detalhe\ lateral.png);
+    background-repeat: no-repeat;
 }
