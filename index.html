@@ -4,43 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <title>CopyFigma</title>
 </head>
-<body>
+<body class="container">
     <nav>
         <ul class="nav-bar">
             <img class="logo" src="/images/Logo.png" alt="Logo Whitepace">
-            <li>Products <img class="icon" src="/images/Down Arrow.png" alt="seta para baixo"></li>
-            <li>Solutions <img class="icon" src="/images/Down Arrow.png" alt="seta para baixo"></li>
-            <li>Resources <img class="icon" src="/images/Down Arrow.png" alt="seta para baixo"></li>
-            <li>Pricing <img class="icon" src="/images/Down Arrow.png" alt="seta para baixo"></li>
-            <button>Login</button>
-            <button class="blue-button">Try Whitepace free <img class="icon" src="/images/Right arrow Icon.png" alt="seta para direita"></button>
+            <li>Products <i class="fa-solid fa-chevron-down"></i></li>
+            <li>Solutions <i class="fa-solid fa-chevron-down"></i></li>
+            <li>Resources <i class="fa-solid fa-chevron-down"></i></li>
+            <li>Pricing <i class="fa-solid fa-chevron-down"></i></li>
+            <button class="orange-button">Login</button>
+            <button class="blue-button">Try Whitepace free <i class="fa-solid fa-arrow-right"></i></button>
         </ul>
     </nav>
     <header class="bg-blue">
-        <div>
+        <div class="text">
             <h1>Get More Done with<br/>whiteplace</h1>
-            <h4>Project management software that enables your teams to collaborate, plan, <br> and manage everyday tasks</h4>
-            <button class="blue-button">Try Whitepace free <img class="icon" src="/images/Right arrow Icon.png" alt="seta para direita"></button>
+            <h4>Project management software that enables your teams to collaborate, plan, analyze <br> and manage everyday tasks</h4>
+            <button class="blue-button">Try Whitepace free <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="image-right">  
             <img class="tela_azul" src="/images/tela azul.png" alt="Tela azul">
         </div>   
     </header>
-    <article>
-        <div class="left-content">
-            <img src="" alt="Detalhe">
-            <h2>Project<br>Management</h2>
-            <h4>Images, videos, PDFs and audio files are supported. Creat math expressions and<br> diagrams directly from the app. Take photos with the mobile app and save them<br>to anote.</h4>
-            <button class="blue-button">Get Started <img class="icon" src="/images/Right arrow Icon.png" alt="seta para direita"></button>
-            <img class="tela_azul" src="/images/tela azul.png" alt="Tela azul">
-        </div>
-        <div class="right-content">
-            <img src="/images/Work Together Image.png" alt="Ciclo">
-            <h2>Work together</h2>
-            <h4>With whiteplace, share your notes with your colleagues and collaborate on them. <br>You can also publish a note to the internet and share the URL with others.</h4>
-            <button class="blue-button">Try it now <img class="icon" src="/images/Right arrow Icon.png" alt="seta para direita"></button>
-        </div>
-    </article>
+    <article class="project">
+        <section >
+            <div class="left">
+                <img class="detail" src="/images/orange-detail.png" alt="Detalhe">
+                <h2>Project<br>Management</h2>
+                <h4>Images, videos, PDFs and audio files are supported. Creat math expressions and<br> diagrams directly from the app. Take photos with the mobile app and save them<br>to anote.</h4>
+                <button class="blue-button">Get Started <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="right">
+                <img class="tela_azul" src="/images/Work Together Image.png" alt="Tela azul">
+            </div>
+        </section>
+        <section >
+            <div class="left">
+                <img src="/images/tela azul.png" alt="Ciclo">
+                <h2>Work together</h2>
+                <h4>With whiteplace, share your notes with your colleagues and collaborate on them. <br>You can also publish a note to the internet and share the URL with others.</h4>
+            </div>
+            <div class="right">
+                <button class="blue-button">Try it now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </section>
+    <!-- </article>
     <article class="bg-blue">
         <h2>Use as Extension</h2>
         <h4>Use the web clipper extension, avaliable on Chrome and Firefox, to save web pages<br>of the screenshots as notes.</h4>
@@ -210,6 +221,6 @@
         <img src="" alt="logo facebook">
         <img src="" alt="logo twitter">
         <img src="" alt="logo linkedin">
-    </footer>
+    </footer> -->
 </body>
 </html>

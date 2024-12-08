@@ -11,11 +11,12 @@
 
 *{
     margin: 0;
-    font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
 .logo{
-    padding-right: 150px;
+    padding-right: 170px;
+    margin-left: 50px;
 }
 
 .nav-bar{
@@ -25,47 +26,93 @@
     list-style: none;
     background-color: var(--primary-color);
     color: var(--neutral-color);
-    padding: 10px 150px;
+    padding: 20px 30px;
 }
 
-.icon{
-    height: 25px;
-    margin-left: 2px;
-    vertical-align: middle;
-    color: var(--neutral-color);
+i{
+    padding-left: 5px;
 }
 
 .bg-blue{
     background-color: var(--primary-color);
     color: var(--neutral-color);
-    padding-left: 150px;
-}
-
-.bg-blue h1{
-    padding-top: 100px;
 }
 
 header{
     background-image: url(/images/Element.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: bottom;
+    height: 600px;
+}
+
+.text{
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+.text h4{
+    font-size: 15px;
+    padding: 30px 0px;
+}
+
+.image-right{
+    margin-right: 50px;
+}
+
+.bg-blue{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .tela_azul{
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 700px;
 }
 
 .blue-button{
     background-color: var(--secondary-color);
     color: var(--neutral-color);
     border: none;
-    border-radius: 2px;
-    padding: 7px;
+    border-radius: 10px;
+    padding: 15px;
     align-items: center;
+    height: 50px;
+}
+
+.orange-button{
+    background-color: var(--detail-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    width: 100px;
+    height: 50px;
 }
 
 .left-content{
     background-image: url(/images/detalhe\ lateral.png);
     background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 60px;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.left{
+    margin-left: 50px;
+    padding: 20px 20px;
+}
+
+.right{
+    margin-right: 50px;
 }
