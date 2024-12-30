@@ -285,9 +285,9 @@ h2{
 
 .content-work{
     background-color: var(--primary-color);
-    background-image: url(/images/detalhe\ lateral.png);
+    background-image: url(/images/detail2.png);
     background-repeat: no-repeat;
-    background-position: -170px 10px;
+    background-position: -170px -150px;
     color: var(--neutral-color);
     width: 100%;
     height: 500px;
