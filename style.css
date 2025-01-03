@@ -29,10 +29,6 @@
     padding: 20px 30px;
 }
 
-i{
-    padding-left: 5px;
-}
-
 .bg-blue{
     display: flex;
     align-items: center;
@@ -45,10 +41,6 @@ i{
 }
 
 header{
-    background-image: url(/images/Element.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
     height: 600px;
 }
 
@@ -92,11 +84,6 @@ header{
     height: 50px;
 }
 
-.left-content{
-    background-image: url(/images/detalhe\ lateral.png);
-    background-repeat: no-repeat;
-}
-
 h2{
     font-size: 60px;
 }
@@ -106,9 +93,6 @@ h2{
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
-    background-image: url(/images/background-lateral.png);
-    background-repeat: no-repeat;
-    background-position: -170px 0px;
 }
 
 .left{
@@ -202,17 +186,6 @@ h2{
     height: 60px;
 }
 
-.text-bg{
-    padding-right: 200px;
-    background-image: url(/images/orange-detail.png);
-    background-repeat: no-repeat;
-    background-size: 500px 40px;
-    display: inline-block;
-    background-position: bottom;
-    position: relative;
-    background-position: 0 100%;
-}
-
 .title{
     display: flex;
     flex-direction: column;
@@ -227,71 +200,6 @@ h2{
 .title h4{
     padding-top: 15px;
     font-weight: 400;
-}
-
-.values{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    margin-left: 150px;
-    margin-bottom: 100px;
-}
-
-.title .text-bg{
-    background-size: 300px 30px;
-    background-position: 0 100%;
-}
-
-.first-style{
-    border: 2px solid var(--detail-color);
-    border-radius: 7px;
-    padding: 20px;
-    line-height: 40px;
-}
-
-.second-style{
-    background-color: var(--primary-color);
-    border-radius: 7px;
-    padding: 60px 20px;
-    line-height: 40px;
-    color: var(--neutral-color);
-    
-}
-
-.first-style button{
-    background-color: var(--neutral-color-color);
-    color: var(--dark-color);
-    border: 2px solid var(--detail-color);
-    border-radius: 10px;
-    padding: 15px;
-    align-items: center;
-    height: 50px;
-}
-
-.values li{
-    list-style-type: none;
-}
-
-.detail-blue{
-    padding-right: 200px;
-    background-image: url(/images/blue-detail.png);
-    background-repeat: no-repeat;
-    background-size: 250px 20px;
-    display: inline-block;
-    background-position: bottom;
-    position: relative;
-    background-position: 0 100%;
-}
-
-.detail-orange{
-    padding-right: 200px;
-    background-image: url(/images/orange-detail.png);
-    background-repeat: no-repeat;
-    background-size: 250px 20px;
-    display: inline-block;
-    background-position: bottom;
-    position: relative;
-    background-position: 0 100%;
 }
 
 .content-work{
