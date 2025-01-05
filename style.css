@@ -9,58 +9,15 @@
     --dark-color: #212529;
 }
 
+/*GERAL*/
 *{
     margin: 0;
     font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
-.logo{
-    padding-right: 170px;
-    margin-left: 50px;
-}
-
-.nav-bar{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    background-color: var(--primary-color);
-    color: var(--neutral-color);
-    padding: 20px 30px;
-}
-
-.bg-blue{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .blue{
     background-color: var(--primary-color);
     color: var(--neutral-color);
-}
-
-header{
-    height: 600px;
-}
-
-.text{
-    margin-left: 60px;
-    font-size: 40px;
-}
-
-.text h4{
-    font-size: 15px;
-    padding: 30px 0px;
-}
-
-.image-right{
-    margin-right: 50px;
-}
-
-.tela_azul{
-    height: 500px;
-    width: 700px;
 }
 
 .blue-button{
@@ -84,10 +41,59 @@ header{
     height: 50px;
 }
 
-h2{
-    font-size: 60px;
+.bg-blue{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.tela_azul{
+    height: 500px;
+    width: 700px;
+}
+
+/*NAVEGAÇÃO*/
+.logo{
+    padding-right: 170px;
+    margin-left: 100px;
+}
+
+.nav-bar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: var(--primary-color);
+    color: var(--neutral-color);
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.nav-bar button{
+    margin-right: 120px;
+}
+
+/*HEADER*/
+header{
+    height: 600px;
+}
+
+.text{
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+.text h4{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 30px 0px;
+}
+
+.image-right{
+    margin-right: 50px;
+}
+
+/*PROJECT*/
 .project{
     display: flex;
     justify-content: space-between;
@@ -95,10 +101,24 @@ h2{
     margin-top: 60px;
 }
 
+.project h2{
+    font-size: 60px;
+}
+
+.project h4{
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.project button{
+    width: 150px;
+}
+
 .left{
     margin-left: 50px;
     padding: 20px 20px;
     flex-direction: column;
+    gap: 100px;
 }
 
 .right{
@@ -110,6 +130,7 @@ h2{
     width: 550px;
 }
 
+/*USE AS EXTENSION*/
 .blue.extension {
     display: flex;
     justify-content: space-between; 
@@ -117,51 +138,47 @@ h2{
     gap: 20px; 
     padding: 20px;
     height: 700px;
-  }
+}
   
-  .left-content3 {
+  .left-content{
     text-align: left;
     flex-direction: column;
     margin-left: 50px;
-  }
+}
   
-  .right-content {
+  .right-content{
     display: flex;
     justify-content: flex-end; 
     align-items: center; 
-  }
+}
   
   .right-content img.tela_azul{
     max-width: 100%; 
     height: 500px;
     width: 700px;
-  }
-  
-.detail-text{
-    height: 20px;
-    width: 350px;
 }
 
-.left-content3 h2{
+.left-content h2{
     font-size: 80px;
     padding-bottom: 15px;
 }
 
-.left-content3 button{
+.left-content h4{
+    font-weight: 300;
+}
+
+.left-content button{
     margin-top: 45px;
     padding: 20px 40px;
     align-items: center;
 }
 
-.detail-text{
-    margin-bottom: -10px;
-}
-
+/*CUSTOMISE*/
 .top{
     display: flex;
     justify-content: flex-start; 
     align-items: center;
-    margin: 100px 50px 250px;
+    margin: 100px 50px 100px;
 }
 
 .top h2{
@@ -186,43 +203,26 @@ h2{
     height: 60px;
 }
 
-.title{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 50px;
-    text-align: center;
-}
-
-.title h2{
-    margin-left: 150px;
-}
-
-.title h4{
-    padding-top: 15px;
-    font-weight: 400;
-}
-
+/*YOU WORK*/
 .content-work{
     background-color: var(--primary-color);
-    background-image: url(/images/detail2.png);
-    background-repeat: no-repeat;
-    background-position: -170px -150px;
     color: var(--neutral-color);
     width: 100%;
     height: 500px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
     padding-top: 50px;
 }
 
 .content-work h2{
-    margin-left: 170px;
-    padding-bottom: 30px;  
-    margin-top: 150px;
+    font-size: 70px;
 }
 
 .content-work h4{
-    font-weight: 400;
+    font-weight: 300;
     line-height: 30px;
     padding-bottom: 60px;
 }
@@ -232,75 +232,59 @@ h2{
     height: 60px;
 }
 
-.logo{
+/*LOGOS*/
+.logo-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 70px;
     max-width: 100%;
-}
-
-.content-data{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
-.right-data{
-    margin-left: 40px;
-}
-
-.right-data h2{
-    font-size: 80px;
-    margin-bottom: 60px;
-}
-
-.right-data  h4{
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-    text-align: justify;
-}
-
-.right-data button{
-    width: 170px;
-    height: 60px;
-    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .content-logo{
-    align-items: center;
-    text-align: center;
-    align-content: center;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
 
-.apps{
+/*FOOTER*/
+.container-list{ 
     display: flex;
     justify-content: space-between;
-    background-image: url(/images/Element3.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 120px 40px 40px 50px;
-}
-
-.content-comp h2{
-    font-size: 80px;
-    padding-bottom: 50px;
-}
-
-.content-comp h4{
+    align-items: center;
     font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 2px;
-    padding-bottom: 50px;
 }
 
-.content-comp button{
-    width: 200px;
-    height: 60px;
-    font-size: 17px;
+.black{
+    font-weight: bold;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    border-top: 0.5px solid var(--neutral-color);
+    margin-top: 80px;
+}
+
+.container-list li{
+    list-style: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer{
+    padding-left: 150px;
+    padding-right: 350px;
+    height: 400px;
+}
+
+footer h4{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
 }
